@@ -38,22 +38,28 @@ body {
 
 .header {
   width: 100%;
-  height: 50px;
+  height: 100px;
 }
-
-.sidebar {
-  display: inline-block;
-  width: 100px;
-  height: 100%;
+.action-btn-search-container{
+  position: absolute;
+  top: 79px;
+  left: 79px;
 }
-
-.middle-section {
-  margin: 5px;
-  width: 100%;
+.action-btn-search-container > button{
+  width: 42px;
+  height: 42px;
+  background: #ffc107;
 }
-
-.content {
-  display: inline-block;
-  width: 50px;
-  height: 100%;
+.circle-div{
+  border-radius: 50%;
+  border:1px solid #ffc107;
+}
+.search-box{
+  position: absolute;
+  height: 32px;
+  width: 600px;
+  background: #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 79px;
 }
